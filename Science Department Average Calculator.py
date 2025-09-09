@@ -1,7 +1,7 @@
 # Science Department Average Calculator
-bio = int(input("Enter the Biology Result: "))
-chem = int(input("Enter the Chemistry Result: "))
-physics = int(input("Enter the Physics Result: "))
+bio = int(input("Enter the Biology Result (%): "))
+chem = int(input("Enter the Chemistry Result (%): "))
+physics = int(input("Enter the Physics Result (%): "))
 
 average = round((bio + chem + physics) / 3, 2)
 
