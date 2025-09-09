@@ -5,7 +5,7 @@ physics = int(input("Enter the Physics Result: "))
 
 average = round((bio + chem + physics) / 3, 2)
 
-resulttype = (input("Is this a GCSE or Letter System result? (Enter G for GCSEE or L for Letter System): ")).upper()
+resulttype = (input("Is this a GCSE or Letter System result? (Enter G for GCSE or L for Letter System): ")).upper()
 
 if resulttype == "G":
     nine_Bound = 75
