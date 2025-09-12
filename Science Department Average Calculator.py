@@ -54,6 +54,6 @@ elif resulttype == "L":
         grade = "E"
     elif average >= F_Bound:
         grade = "F"
-128
+
 print("Average: " + str(average) + "%") 
 print("Grade: " + grade)
