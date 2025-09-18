@@ -34,4 +34,5 @@ if total_bill > 20:
 else:  
     print("That’s a reasonable snack choice.")
 
-print("Your total bill is: £" + str(total_bill)) 
+print("Your total bill is: £" + str(round(total_bill, 2)))
+
