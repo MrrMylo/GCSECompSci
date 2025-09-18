@@ -1,4 +1,4 @@
-drink_price = 1.25  
+drink_price = 1.5
 
 print("Welcome to the Python Snack Shop!")  
 name = input("What is your name? ")  
