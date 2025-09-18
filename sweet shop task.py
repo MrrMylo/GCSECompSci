@@ -16,7 +16,7 @@ if drinks > 2:
 chocolates = int(input("How many chocolates do you want? "))
 print("You chose " + str(chocolates) + " chocolates.")   
 if chocolates > 5:  
-    print("Wow, that's a lot of chocolates!")  
+    print("Wow, that's a lot of chocolates!") 
  
 print("If each chocolate costs £2, total = " + str(chocolates * 2)) 
 
@@ -24,6 +24,10 @@ print("\n--- Checking Your Order ---")
 
 total_bill = (chocolates * 2) + (drinks * drink_price) 
 total_bill = round(total_bill, 2)  
+
+loyalty = input("Do you have a loyalty card? (yes/no): ")
+if loyalty == "yes" or loyalty == "Yes":
+    total_bill *= 0.95
 
 if total_bill > 20:  
     print("Big spender alert!") 
