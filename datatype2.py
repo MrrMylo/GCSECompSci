@@ -1,0 +1,5 @@
+firstname = input("Enter your first name: ")
+age = int(input("Enter your age: "))
+cm = int(input("Enter your height in cm (to the nearest whole cm): "))
+inches = round(cm / 2.54, 1)
+print(firstname + "," + " you are " + str(age) + " years old and " + str(inches) + " inches tall.")
