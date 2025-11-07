@@ -1,2 +1,18 @@
-file = input("Enter your file name: ").lower()
-print(file + str(".html"))
+text = input("Enter a string: ")
+
+if len(text) == 0:
+    print("Empty input!")
+else:
+    result = ""
+    count = 1
+    
+    for i in range(1, len(text)):
+        if text[i] == text[i - 1]:
+            count = count + 1
+        else:
+            result = result + text[i - 1] + str(count)
+            count = 1
+        
+    result = result + text[-1] + str(count)
+        
+    print("Output string: " + str(result))
