@@ -6,8 +6,8 @@ if wage >= 10000 and wage <= 30000: #<--- This is a complex condition
     takehome = wage - tax
     print("Wage after tax: £" + str(takehome))
 elif wage >= 30000:
-    tax = wage * 0.40 #<--- False Path
+    tax = wage * 0.48 #<--- False Path
     takehome = wage - tax
     print("Wage after tax: £" + str(takehome))
-elif wage < 10000:
+elif wage < 12570:
     print("No tax to pay") #<--- False Path
